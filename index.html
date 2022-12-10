@@ -10,41 +10,43 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <section>
+  <form class="section" action="./thankyou.html">
       <div class="rating">
           <!-- Rating state start -->
-          <div class="star"><img src='./images/icon-star.svg'></div>
+          <div class="star0"><img class='img1' src='./images/icon-star.svg'></div>
           <h2 class="title">How did we do?</h2>
 
           <p class="paragraph">Please let us know how we did with your support request. All feedback is appreciated 
           to help us improve our offering!</p>
 
           <div class="numbers">
-            <div class="star"><p>1</p></div>
-            <div class="star"><p>2</p></div>
-            <div class="star"><p>3</p></div>
-            <div class="star"><p>4</p></div>
-            <div class="star"><p>5</p></div>
+            <input type='radio' name="score" id='activate-div1' value="1">
+              <label for="activate-div1">
+                <div class="star1"><p>1</p></div>
+              </label>
+              <input type='radio' name="score" id='activate-div2' value="2">
+              <label for="activate-div2">
+                <div class="star2"><p>2</p></div>
+              </label>
+              <input type='radio' name="score" id='activate-div3' value="3">
+              <label for="activate-div3">
+                <div class="star3"><p>3</p></div>
+              </label>
+              <input type='radio' name="score" id='activate-div4' value="4">
+              <label for="activate-div4">
+                <div class="star4"><p>4</p></div>
+              </label>
+              <input type='radio' name="score" id='activate-div5' value="5">
+              <label for="activate-div5">
+                <div class="star5"><p>5</p></div>
+              </label>
           </div>
           <div class="button"> 
             <button class="submit">Submit</button>
           </div> 
           <!-- Rating state end -->
       </div>
-      <div class="thankyou">    
-          <!-- Thank you state start -->
-
-          You selected <!-- Add rating here --> out of 5
-
-          Thank you!
-
-          We appreciate you taking the time to give a rating. If you ever need more support, 
-          don’t hesitate to get in touch!
-
-          <!-- Thank you state end -->
-      </div> 
-  </section>  
-  
+    </form> 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/alencett">Alvaro Blanquicett</a>.
