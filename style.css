@@ -1,0 +1,89 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+}
+
+section {
+    background-color: transparent;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.rating {
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    max-width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.star {
+    background-color: hsl(212, 19%, 27%);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    color: hsl(216, 12%, 54%);
+}
+
+img {
+    padding-top: 7px;
+    width: 15px;
+    height: 15px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+}
+
+.paragraph {
+    color: hsl(216, 12%, 54%);
+    font-size: 12px;
+}
+
+p {
+    position: relative;
+    top: -3px;
+}
+
+.numbers {
+    color: hsl(216, 12%, 54%);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px 15px 0px;
+    font-size: 12px;
+}
+
+.button {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    width: 90%;
+    background-color: hsl(25, 97%, 53%);
+    border: 0px;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 8px;
+    letter-spacing: 1px;
+}
+
+.thankyou {
+    display: none;
+}
+
+.attribution {
+    display: none;
+}
